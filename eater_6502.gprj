@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/Eater_6502_Top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Frequency_Divider.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/Gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/eater_6502.cst" type="file.cst" enable="1"/>
+        <File path="src/eater_6502.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
