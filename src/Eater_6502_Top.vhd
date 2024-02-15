@@ -25,13 +25,8 @@ entity Eater_6502_Top is
         o_Clk : out std_logic;
         o_Led_1 : out std_logic;
         o_Led_2 : out std_logic;
-        o_Led_3 : out std_logic;
+        o_Led_3 : out std_logic
 
-        -- SD card SPI interface
-        o_Spi_CS : out std_logic;
-        o_Spi_SCK : out std_logic;
-        o_Spi_MOSI : out std_logic;
-        i_Spi_MISO : in std_logic
     );
 end entity Eater_6502_Top;
 

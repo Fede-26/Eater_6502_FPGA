@@ -4,6 +4,8 @@
 
 Eater_6502 is a 65c02 emulator running on the Tang Nano 9k FPGA.
 
+Inspired by the [Ben Eater 6502 computer](https://eater.net/6502).
+
 ## Features
 
 - Address bus
