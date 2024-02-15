@@ -17,3 +17,6 @@ Eater_6502 is a 65c02 emulator running on the Tang Nano 9k FPGA.
 - R/W: Read/Write signal (Pin **72**)
 - Clock: 10Hz clock signal (Pin **63**)
 
+## Dependencies
+
+- [SDCard SPI](https://github.com/WangXuan95/FPGA-SDcard-Reader-SPI)
