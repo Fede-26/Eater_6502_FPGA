@@ -12,11 +12,7 @@ Eater_6502 is a 65c02 emulator running on the Tang Nano 9k FPGA.
 
 ## Pinout
 
-- Addr: 16-bit address bus (Pin **38** [msb] to Pin **42** [lsb])
-- Data: 8-bit data bus (Pin **51** [msb], Pin **53**, Pin **57** to Pin **69**, Pin **75** to Pin **73** [lsb])
-- R/W: Read/Write signal (Pin **72**)
-- Clock: 10Hz clock signal (Pin **63**)
-
-## Dependencies
-
-- [SDCard SPI](https://github.com/WangXuan95/FPGA-SDcard-Reader-SPI)
+- Addr: 16-bit address bus: `25` *[msb]* to `53`, `57` to `68` *[lsb]*
+- Data: 8-bit data bus: `77` *[msb]* to `70` *[lsb]*
+- R/W: Read/Write signal: `69`
+- Clock: 10Hz clock signal: `63`
